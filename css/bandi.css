@@ -115,7 +115,7 @@ body{
     background-color:var(--main-color);
 }
 .landing .container{
-    min-height:20vh;
+    min-height:30vh;
 }
 
 .landing .container h1{
