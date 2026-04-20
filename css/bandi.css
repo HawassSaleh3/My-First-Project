@@ -722,6 +722,9 @@ border-radius:10px;
     .about .container .about-image{
         display:none;
     }
+    .landing{
+        padding-bottom:30px;
+    }
     .about .container .left{
         width: 500px;
         text-align: center;
@@ -762,6 +765,7 @@ border-radius:10px;
     }
     .landing{
         display: flex;
+        padding-bottom:20px;
     }
     .portfolio .links{
         padding: 0;
