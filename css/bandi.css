@@ -341,7 +341,6 @@ body{
     font-family: var(--main-font);
 background-color:var(--main-background);
 }
-.team .container{}
 .team .container .text{
     text-align: center;
 }
@@ -390,7 +389,6 @@ background-color:var(--main-background);
     text-align: center;
     font-family: var(--main-font);
 }
-.advertise .container{}
 .advertise .container h1{
     color: white;
     font-size: 45px;
@@ -560,7 +558,7 @@ border-radius:10px;
     line-height: 1.7;
     font-size: 15px;
 }
-.footer .container .contact-us a{
+.footer .container .contact-us > a{
     margin:30px auto;
     display:block;
     height:40px;
@@ -586,16 +584,16 @@ border-radius:10px;
     line-height: 40px;
     border-radius: 50%;
 }
-.footer .container .contact-us ul li .faceboock{
+.footer .container .contact-us ul li a .faceboock{
     background-color:#1877f2;
 }
-.footer .container .contact-us ul li .twitter{
+.footer .container .contact-us ul li a .twitter{
     background-color:#1da1f2;
 }
-.footer .container .contact-us ul li .google{
+.footer .container .contact-us ul li a .google{
     background-color:#34a853;
 }
-.footer .container .contact-us ul li .youtube{
+.footer .container .contact-us ul li a .youtube{
     background-color:#ff0000;
 }
 /* end footer */
